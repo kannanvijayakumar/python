@@ -6,6 +6,24 @@ else:
     print("even")
     
     
+# age=18
+
+# if(age>=18):
+#     print("eligible")
+# else:
+#     print("not eligible")
+
+
+
+# a=10
+# b=25
+
+# if(a>b):
+#     print("a is biggest value:", a)
+# else:
+#     print("b is biggest value:", b) 
+
+
 # num=int(input("enter a number:"))
 
 # if(num>0):
@@ -16,6 +34,18 @@ else:
 #     print("neutral")
 # else:
 #     print("invalid")
+
+
+a=int(input("enter the a value:"))
+b=int(input("enter the b value:"))
+c=int(input("enter the c value:"))
+
+if(a>b and a>c):
+    print("a is biggest value:", a)
+elif(b>a and b>c):
+    print("b is biggest value:", b)
+else:
+    print("c is biggest value:", c)
 
 
 day=int(input("enter a number:"))
@@ -36,3 +66,5 @@ elif(day==7):
     print("sunday")
 else:
     print("invalid")
+    
+    
