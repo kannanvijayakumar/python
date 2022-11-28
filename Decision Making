@@ -1,0 +1,36 @@
+val=int(input("enetr a number:"))
+
+if(val%2==0):
+    print("odd")
+else:
+    print("even")
+    
+    
+# num=int(input("enter a number:"))
+
+# if(num>0):
+#     print("positive")
+# elif(num==0):   
+#     print("negative")
+# elif(num<0):
+#     print("neutral")
+# else:
+#     print("invalid")
+
+day=int(input("enter a number:"))
+if(day==1):
+    print("monday")
+elif(day==2):
+    print("tuesdat")
+elif(day==3):
+    print("wednesday")
+elif(day==4):
+    print("thursday")
+elif(day==5):
+    print("friday")
+elif(day==6):
+    print("saturday")
+elif(day==7):
+    print("sunday")
+else:
+    print("invalid")
