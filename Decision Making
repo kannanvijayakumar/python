@@ -17,7 +17,9 @@ else:
 # else:
 #     print("invalid")
 
+
 day=int(input("enter a number:"))
+
 if(day==1):
     print("monday")
 elif(day==2):
