@@ -1,0 +1,69 @@
+# function
+
+# ch=int(input("enter the choice :"))
+
+# def first():
+#     print("first floor")
+# def second():
+#     print("second floor")
+# def third():
+#     print("third floor")
+    
+# if ch==1:
+#     first()
+# if ch==2:
+#     second()
+# if ch==3:
+#     third()
+    
+    
+    
+# no return without arguments    
+    
+# def add():
+#     a=int(input("enter the a value:"))
+#     b=int(input("enter the b value:"))
+#     c=a+b
+#     print(c)
+    
+    
+# add()
+    
+    
+    
+# return without arguments      
+    
+# def add():
+#     a=int(input("enter the a value:"))
+#     b=int(input("enter the b value:"))
+#     c=a+b
+#     return c
+    
+    
+# res=add()
+# print(res)
+    
+    
+# no return with argument
+
+# def add(x,y):
+#     c=x+y
+#     print(c)
+    
+    
+# a=int(input("enter the a value:"))
+# b=int(input("enter the b value:"))
+# add(a,b)
+    
+  
+# return with argument  
+
+def mul(x,y):
+    c=x*y
+    return c
+    
+    
+a=int(input("enter the a value:"))
+b=int(input("enter the b value:"))
+res=mul(a,b)
+print(res)
